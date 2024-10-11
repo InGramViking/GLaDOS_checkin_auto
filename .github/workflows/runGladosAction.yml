@@ -1,9 +1,9 @@
 name: 开始每日签到
 
 on:
-  # UTC 1点30分(北京时间 9点30分)
+  # UTC 10点*分(北京时间 18点*分)
   schedule:
-    - cron: '20 2 * * *'
+    - cron: '* 10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
