@@ -1,10 +1,9 @@
 name: 开始每日签到
 
 on:
-  workflow_dispatch:
   # UTC 1点30分(北京时间 9点30分)
   schedule:
-    - cron: '00 2 * * *'
+    - cron: '20 2 * * *'
   # 标星时触发工作流程
   watch:
     types: [started]
